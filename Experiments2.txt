@@ -20,3 +20,6 @@ Learn linear threshold function with perceptron update rule:
                 average error : 0.32
                 epsilon :  0.2
                 Training fail
+
+Comments:
+From our experiments, Winnow rule is not able to learn linear threshold function under the uniform unit spherical distribution under different choices of activation function
