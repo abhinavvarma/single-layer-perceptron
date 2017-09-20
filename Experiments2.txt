@@ -1,0 +1,22 @@
+Conducted following combinations of experiments keeping num_train=500, num_test=250 and epsilon=0.2:
+
+Learn linear threshold function with perceptron update rule:
+    1. On unit spherical distribution data
+        a. relu as activation function
+            Result:
+                Total error : 88
+                average error : 0.352
+                epsilon :  0.2
+                Training fail
+        b. tanh as activation function
+            Result:
+                Total error : 91
+                average error : 0.364
+                epsilon :  0.2
+                Training fail
+        c. threshold as activation function
+            Result:
+                Total error : 80
+                average error : 0.32
+                epsilon :  0.2
+                Training fail
