@@ -1,0 +1,873 @@
+[0, 0, 0] : 0 : update
+[0, 0, 0] : 0 : no update
+[0, 0, 1] : 1 : no update
+[1, 0, 1] : 1 : no update
+[1, 0, 0] : 0 : update
+[1, 0, 0] : 0 : no update
+[0, 0, 1] : 1 : update
+[1, 1, 0] : 0 : update
+[1, 1, 0] : 0 : no update
+[0, 0, 1] : 1 : update
+[1, 1, 1] : 1 : no update
+[1, 1, 0] : 0 : no update
+[1, 0, 0] : 0 : no update
+[1, 0, 0] : 0 : no update
+[1, 0, 1] : 1 : no update
+[0, 1, 0] : 0 : update
+[0, 1, 0] : 0 : no update
+[0, 0, 1] : 1 : update
+[0, 0, 0] : 0 : update
+[0, 0, 0] : 0 : no update
+[0, 0, 1] : 1 : update
+[0, 0, 1] : 1 : no update
+[1, 1, 1] : 1 : no update
+[1, 0, 0] : 0 : no update
+[0, 0, 1] : 1 : no update
+[1, 1, 1] : 1 : no update
+[0, 0, 0] : 0 : update
+[0, 0, 0] : 0 : no update
+[1, 0, 0] : 0 : no update
+[1, 0, 0] : 0 : no update
+[1, 0, 0] : 0 : no update
+[0, 0, 1] : 1 : update
+[0, 1, 1] : 1 : no update
+[1, 1, 0] : 0 : no update
+[0, 0, 0] : 0 : update
+[0, 0, 0] : 0 : no update
+[0, 1, 0] : 0 : no update
+[0, 1, 1] : 1 : update
+[0, 1, 1] : 1 : no update
+[0, 0, 1] : 1 : no update
+[1, 0, 0] : 0 : no update
+[0, 0, 0] : 0 : update
+[0, 0, 0] : 0 : no update
+[0, 1, 0] : 0 : no update
+[1, 0, 0] : 0 : no update
+[1, 1, 1] : 1 : update
+[0, 0, 0] : 0 : update
+[0, 0, 0] : 0 : no update
+[0, 1, 0] : 0 : no update
+[1, 1, 0] : 0 : no update
+[0, 0, 0] : 0 : no update
+[0, 0, 1] : 1 : update
+[0, 0, 0] : 0 : update
+[0, 0, 0] : 0 : no update
+[0, 0, 0] : 0 : no update
+[1, 1, 0] : 0 : no update
+[1, 1, 1] : 1 : update
+[1, 0, 0] : 0 : update
+[1, 0, 0] : 0 : no update
+[1, 1, 1] : 1 : update
+[1, 0, 1] : 1 : no update
+[1, 0, 1] : 1 : no update
+[1, 1, 1] : 1 : no update
+[0, 1, 0] : 0 : update
+[0, 1, 0] : 0 : no update
+[1, 1, 1] : 1 : update
+[1, 0, 0] : 0 : update
+[1, 0, 0] : 0 : no update
+[0, 1, 1] : 1 : update
+[1, 1, 1] : 1 : no update
+[0, 1, 0] : 0 : update
+[0, 1, 0] : 0 : no update
+[1, 1, 1] : 1 : update
+[1, 0, 1] : 1 : no update
+[1, 1, 0] : 0 : update
+[1, 1, 0] : 0 : no update
+[0, 1, 1] : 1 : update
+[1, 1, 1] : 1 : no update
+[0, 0, 0] : 0 : update
+[0, 0, 0] : 0 : no update
+[0, 0, 1] : 1 : update
+[1, 0, 1] : 1 : no update
+[0, 1, 0] : 0 : update
+[0, 1, 0] : 0 : no update
+[1, 0, 0] : 0 : no update
+[0, 1, 1] : 1 : update
+[1, 0, 1] : 1 : no update
+[1, 0, 1] : 1 : no update
+[1, 0, 0] : 0 : update
+[1, 0, 0] : 0 : no update
+[1, 0, 1] : 1 : update
+[1, 0, 1] : 1 : no update
+[1, 0, 1] : 1 : no update
+[0, 1, 0] : 0 : update
+[0, 1, 0] : 0 : no update
+[1, 0, 1] : 1 : update
+[0, 0, 1] : 1 : no update
+[0, 1, 1] : 1 : no update
+[1, 1, 0] : 0 : update
+[1, 1, 0] : 0 : no update
+[1, 1, 1] : 1 : update
+[0, 0, 0] : 0 : update
+[0, 0, 0] : 0 : no update
+[0, 0, 0] : 0 : no update
+[1, 1, 0] : 0 : no update
+[0, 0, 1] : 1 : update
+[1, 1, 1] : 1 : no update
+[0, 0, 1] : 1 : no update
+[1, 0, 0] : 0 : update
+[1, 0, 0] : 0 : no update
+[1, 0, 0] : 0 : no update
+[0, 1, 1] : 1 : update
+[0, 0, 0] : 0 : update
+[0, 0, 0] : 0 : no update
+[1, 0, 1] : 1 : update
+[0, 1, 1] : 1 : no update
+[0, 0, 0] : 0 : update
+[0, 0, 0] : 0 : no update
+[0, 1, 0] : 0 : no update
+[0, 1, 0] : 0 : no update
+[0, 0, 1] : 1 : update
+[1, 1, 1] : 1 : no update
+[1, 0, 0] : 0 : update
+[1, 0, 0] : 0 : no update
+[1, 0, 1] : 1 : update
+[1, 1, 0] : 0 : update
+[1, 1, 0] : 0 : no update
+[1, 1, 0] : 0 : no update
+[1, 1, 0] : 0 : no update
+[0, 1, 1] : 1 : update
+[0, 1, 0] : 0 : update
+[0, 1, 0] : 0 : no update
+[1, 1, 0] : 0 : no update
+[0, 1, 0] : 0 : no update
+[0, 0, 1] : 1 : update
+[0, 0, 0] : 0 : update
+[0, 0, 0] : 0 : no update
+[0, 1, 1] : 1 : update
+[1, 0, 1] : 1 : no update
+[1, 1, 1] : 1 : no update
+[0, 0, 0] : 0 : update
+[0, 0, 0] : 0 : no update
+[0, 1, 0] : 0 : no update
+[1, 0, 0] : 0 : no update
+[0, 1, 1] : 1 : update
+[1, 0, 1] : 1 : no update
+[1, 1, 0] : 0 : update
+[1, 1, 0] : 0 : no update
+[0, 1, 0] : 0 : no update
+[0, 0, 1] : 1 : update
+[1, 1, 1] : 1 : no update
+[0, 1, 0] : 0 : update
+[0, 1, 0] : 0 : no update
+[1, 1, 1] : 1 : update
+[1, 0, 0] : 0 : update
+[1, 0, 0] : 0 : no update
+[0, 1, 1] : 1 : update
+[0, 1, 0] : 0 : update
+[0, 1, 0] : 0 : no update
+[0, 1, 1] : 1 : update
+[0, 1, 0] : 0 : update
+[0, 1, 0] : 0 : no update
+[1, 0, 1] : 1 : update
+[0, 1, 0] : 0 : update
+[0, 1, 0] : 0 : no update
+[1, 0, 1] : 1 : update
+[1, 0, 0] : 0 : update
+[1, 0, 0] : 0 : no update
+[1, 1, 0] : 0 : no update
+[1, 0, 0] : 0 : no update
+[0, 0, 1] : 1 : update
+[1, 0, 0] : 0 : update
+[1, 0, 0] : 0 : no update
+[1, 0, 1] : 1 : update
+[1, 1, 0] : 0 : update
+[1, 1, 0] : 0 : no update
+[0, 0, 0] : 0 : no update
+[1, 0, 1] : 1 : update
+[1, 1, 0] : 0 : update
+[1, 1, 0] : 0 : no update
+[1, 1, 0] : 0 : no update
+[0, 0, 0] : 0 : no update
+[1, 1, 1] : 1 : update
+[0, 1, 1] : 1 : no update
+[1, 1, 1] : 1 : no update
+[0, 0, 0] : 0 : update
+[0, 0, 0] : 0 : no update
+[0, 0, 1] : 1 : update
+[1, 0, 0] : 0 : update
+[1, 0, 0] : 0 : no update
+[1, 1, 0] : 0 : no update
+[1, 1, 0] : 0 : no update
+[1, 0, 0] : 0 : no update
+[1, 0, 1] : 1 : update
+[0, 1, 1] : 1 : no update
+[1, 0, 1] : 1 : no update
+[1, 1, 1] : 1 : no update
+[1, 0, 1] : 1 : no update
+[0, 0, 0] : 0 : update
+[0, 0, 0] : 0 : no update
+[1, 1, 0] : 0 : no update
+[1, 1, 1] : 1 : update
+[0, 1, 1] : 1 : no update
+[1, 0, 0] : 0 : update
+[1, 0, 0] : 0 : no update
+[0, 0, 1] : 1 : update
+[1, 1, 1] : 1 : no update
+[1, 0, 1] : 1 : no update
+[1, 1, 0] : 0 : update
+[1, 1, 0] : 0 : no update
+[1, 1, 1] : 1 : update
+[0, 0, 0] : 0 : update
+[0, 0, 0] : 0 : no update
+[0, 1, 0] : 0 : no update
+[1, 0, 1] : 1 : update
+[0, 0, 1] : 1 : no update
+[1, 0, 1] : 1 : no update
+[0, 1, 1] : 1 : no update
+[1, 0, 1] : 1 : no update
+[0, 1, 0] : 0 : update
+[0, 1, 0] : 0 : no update
+[0, 0, 0] : 0 : no update
+[0, 0, 1] : 1 : update
+[1, 1, 1] : 1 : no update
+[0, 1, 1] : 1 : no update
+[0, 1, 0] : 0 : update
+[0, 1, 0] : 0 : no update
+[0, 1, 1] : 1 : update
+[1, 1, 0] : 0 : update
+[1, 1, 0] : 0 : no update
+[0, 1, 1] : 1 : update
+[0, 0, 0] : 0 : update
+[0, 0, 0] : 0 : no update
+[0, 1, 1] : 1 : update
+[1, 1, 0] : 0 : update
+[1, 1, 0] : 0 : no update
+[0, 1, 1] : 1 : update
+[0, 1, 1] : 1 : no update
+[1, 0, 1] : 1 : no update
+[1, 1, 1] : 1 : no update
+[1, 0, 0] : 0 : update
+[1, 0, 0] : 0 : no update
+[1, 0, 0] : 0 : no update
+[0, 0, 0] : 0 : no update
+[0, 1, 0] : 0 : no update
+[1, 0, 0] : 0 : no update
+[1, 0, 0] : 0 : no update
+[1, 0, 1] : 1 : update
+[1, 0, 0] : 0 : update
+[1, 0, 0] : 0 : no update
+[0, 1, 1] : 1 : update
+[1, 0, 1] : 1 : no update
+[1, 0, 0] : 0 : no update
+[0, 1, 0] : 0 : update
+[0, 1, 0] : 0 : no update
+[0, 0, 0] : 0 : no update
+[1, 0, 0] : 0 : no update
+[0, 0, 0] : 0 : no update
+[1, 0, 0] : 0 : no update
+[0, 0, 0] : 0 : no update
+[0, 0, 1] : 1 : update
+[1, 1, 0] : 0 : update
+[1, 1, 0] : 0 : no update
+[1, 0, 0] : 0 : no update
+[0, 1, 1] : 1 : update
+[1, 1, 1] : 1 : no update
+[0, 0, 0] : 0 : update
+[0, 0, 0] : 0 : no update
+[0, 0, 1] : 1 : update
+[0, 0, 0] : 0 : update
+[0, 0, 0] : 0 : no update
+[0, 0, 1] : 1 : update
+[1, 0, 1] : 1 : no update
+[1, 0, 0] : 0 : no update
+[0, 0, 0] : 0 : update
+[0, 0, 0] : 0 : no update
+[0, 1, 1] : 1 : update
+[0, 0, 0] : 0 : update
+[0, 0, 0] : 0 : no update
+[0, 0, 0] : 0 : no update
+[1, 1, 0] : 0 : no update
+[0, 1, 0] : 0 : no update
+[1, 0, 1] : 1 : update
+[1, 0, 0] : 0 : no update
+[1, 1, 1] : 1 : no update
+[1, 1, 0] : 0 : update
+[1, 1, 0] : 0 : no update
+[0, 0, 1] : 1 : update
+[0, 1, 1] : 1 : no update
+[1, 0, 0] : 0 : no update
+[1, 0, 1] : 1 : no update
+[0, 0, 0] : 0 : update
+[0, 0, 0] : 0 : no update
+[1, 0, 1] : 1 : update
+[0, 1, 0] : 0 : update
+[0, 1, 0] : 0 : no update
+[0, 0, 1] : 1 : update
+[0, 0, 1] : 1 : no update
+[0, 1, 1] : 1 : no update
+[1, 1, 0] : 0 : update
+[1, 1, 0] : 0 : no update
+[0, 1, 0] : 0 : no update
+[0, 0, 1] : 1 : update
+[1, 1, 1] : 1 : no update
+[0, 1, 1] : 1 : no update
+[0, 0, 0] : 0 : update
+[0, 0, 0] : 0 : no update
+[0, 0, 0] : 0 : no update
+[1, 1, 0] : 0 : no update
+[0, 1, 0] : 0 : no update
+[1, 0, 1] : 1 : update
+[1, 0, 1] : 1 : no update
+[1, 0, 1] : 1 : no update
+[1, 0, 1] : 1 : no update
+[0, 0, 0] : 0 : update
+[0, 0, 0] : 0 : no update
+[1, 0, 1] : 1 : update
+[1, 1, 1] : 1 : no update
+[0, 0, 1] : 1 : no update
+[1, 0, 1] : 1 : no update
+[0, 0, 0] : 0 : update
+[0, 0, 0] : 0 : no update
+[1, 0, 0] : 0 : no update
+[1, 1, 1] : 1 : update
+[1, 1, 1] : 1 : no update
+[0, 1, 1] : 1 : no update
+[0, 0, 1] : 1 : no update
+[1, 1, 1] : 1 : no update
+[0, 0, 0] : 0 : update
+[0, 0, 0] : 0 : no update
+[0, 1, 1] : 1 : update
+[1, 1, 0] : 0 : update
+[1, 1, 0] : 0 : no update
+[0, 0, 0] : 0 : no update
+[0, 0, 0] : 0 : no update
+[1, 0, 0] : 0 : no update
+[0, 1, 0] : 0 : no update
+[1, 1, 1] : 1 : update
+[1, 1, 0] : 0 : update
+[1, 1, 0] : 0 : no update
+[0, 0, 1] : 1 : update
+[1, 0, 0] : 0 : update
+[1, 0, 0] : 0 : no update
+[0, 1, 1] : 1 : update
+[0, 1, 1] : 1 : no update
+[0, 0, 0] : 0 : update
+[0, 0, 0] : 0 : no update
+[1, 0, 1] : 1 : update
+[1, 0, 1] : 1 : no update
+[1, 0, 0] : 0 : update
+[1, 0, 0] : 0 : no update
+[0, 1, 1] : 1 : update
+[1, 1, 0] : 0 : update
+[1, 1, 0] : 0 : no update
+[0, 0, 1] : 1 : update
+[1, 1, 0] : 0 : update
+[1, 1, 0] : 0 : no update
+[1, 1, 1] : 1 : update
+[0, 0, 1] : 1 : no update
+[0, 1, 1] : 1 : no update
+[0, 0, 0] : 0 : update
+[0, 0, 0] : 0 : no update
+[0, 0, 0] : 0 : no update
+[0, 0, 0] : 0 : no update
+[0, 0, 1] : 1 : update
+[1, 1, 1] : 1 : no update
+[0, 1, 0] : 0 : update
+[0, 1, 0] : 0 : no update
+[1, 0, 1] : 1 : update
+[0, 0, 0] : 0 : update
+[0, 0, 0] : 0 : no update
+[0, 1, 1] : 1 : update
+[1, 1, 1] : 1 : no update
+[1, 1, 1] : 1 : no update
+[1, 0, 1] : 1 : no update
+[0, 1, 0] : 0 : update
+[0, 1, 0] : 0 : no update
+[1, 1, 1] : 1 : update
+[1, 1, 0] : 0 : update
+[1, 1, 0] : 0 : no update
+[0, 0, 0] : 0 : no update
+[0, 0, 0] : 0 : no update
+[0, 0, 1] : 1 : update
+[1, 0, 0] : 0 : no update
+[1, 0, 1] : 1 : no update
+[1, 0, 0] : 0 : no update
+[0, 0, 1] : 1 : no update
+[0, 1, 0] : 0 : update
+[0, 1, 0] : 0 : no update
+[1, 0, 0] : 0 : no update
+[0, 0, 0] : 0 : no update
+[0, 0, 0] : 0 : no update
+[0, 0, 0] : 0 : no update
+[1, 1, 0] : 0 : no update
+[0, 1, 0] : 0 : no update
+[0, 1, 1] : 1 : update
+[0, 0, 1] : 1 : no update
+[1, 0, 1] : 1 : no update
+[1, 0, 1] : 1 : no update
+[1, 1, 1] : 1 : no update
+[0, 0, 1] : 1 : no update
+[0, 0, 1] : 1 : no update
+[1, 1, 1] : 1 : no update
+[0, 1, 0] : 0 : update
+[0, 1, 0] : 0 : no update
+[0, 1, 0] : 0 : no update
+[1, 0, 1] : 1 : update
+[0, 1, 1] : 1 : no update
+[1, 0, 1] : 1 : no update
+[1, 1, 1] : 1 : no update
+[0, 1, 1] : 1 : no update
+[0, 0, 0] : 0 : update
+[0, 0, 0] : 0 : no update
+[0, 0, 1] : 1 : update
+[1, 1, 0] : 0 : update
+[1, 1, 0] : 0 : no update
+[0, 0, 0] : 0 : no update
+[1, 0, 1] : 1 : update
+[1, 1, 1] : 1 : no update
+[0, 1, 1] : 1 : no update
+[1, 1, 1] : 1 : no update
+[1, 0, 1] : 1 : no update
+[0, 0, 1] : 1 : no update
+[0, 1, 1] : 1 : no update
+[0, 0, 1] : 1 : no update
+[1, 1, 0] : 0 : update
+[1, 1, 0] : 0 : no update
+[1, 1, 1] : 1 : update
+[1, 1, 1] : 1 : no update
+[1, 0, 1] : 1 : no update
+[0, 1, 1] : 1 : no update
+[0, 0, 0] : 0 : update
+[0, 0, 0] : 0 : no update
+[1, 1, 1] : 1 : update
+[0, 0, 1] : 1 : no update
+[1, 1, 0] : 0 : update
+[1, 1, 0] : 0 : no update
+[1, 1, 1] : 1 : update
+[0, 1, 1] : 1 : no update
+[0, 1, 0] : 0 : update
+[0, 1, 0] : 0 : no update
+[0, 1, 0] : 0 : no update
+[1, 0, 1] : 1 : update
+[1, 0, 1] : 1 : no update
+[0, 1, 1] : 1 : no update
+[0, 0, 0] : 0 : update
+[0, 0, 0] : 0 : no update
+[1, 0, 1] : 1 : update
+[1, 1, 0] : 0 : update
+[1, 1, 0] : 0 : no update
+[1, 1, 0] : 0 : no update
+[1, 0, 0] : 0 : no update
+[1, 1, 0] : 0 : no update
+[0, 0, 1] : 1 : update
+[0, 1, 0] : 0 : no update
+[1, 1, 0] : 0 : update
+[1, 1, 0] : 0 : no update
+[1, 1, 0] : 0 : no update
+[0, 0, 0] : 0 : no update
+[1, 1, 1] : 1 : update
+[0, 1, 1] : 1 : no update
+[0, 1, 1] : 1 : no update
+[0, 0, 1] : 1 : no update
+[1, 1, 1] : 1 : no update
+[1, 0, 1] : 1 : no update
+[1, 1, 0] : 0 : update
+[1, 1, 0] : 0 : no update
+[0, 0, 0] : 0 : no update
+[0, 1, 0] : 0 : no update
+[0, 1, 1] : 1 : update
+[0, 0, 0] : 0 : update
+[0, 0, 0] : 0 : no update
+[1, 0, 1] : 1 : update
+[0, 0, 1] : 1 : no update
+[1, 1, 0] : 0 : update
+[1, 1, 0] : 0 : no update
+[0, 1, 1] : 1 : update
+[0, 1, 1] : 1 : no update
+[1, 0, 0] : 0 : update
+[1, 0, 0] : 0 : no update
+[1, 1, 1] : 1 : update
+[1, 0, 1] : 1 : no update
+[0, 1, 1] : 1 : no update
+[0, 0, 1] : 1 : no update
+[1, 1, 0] : 0 : update
+[1, 1, 0] : 0 : no update
+[0, 0, 0] : 0 : no update
+[0, 0, 1] : 1 : update
+[1, 0, 1] : 1 : no update
+[1, 0, 1] : 1 : no update
+[0, 1, 1] : 1 : no update
+[0, 0, 0] : 0 : update
+[0, 0, 0] : 0 : no update
+[0, 1, 1] : 1 : update
+[0, 1, 0] : 0 : update
+[0, 1, 0] : 0 : no update
+[1, 1, 0] : 0 : no update
+[1, 1, 0] : 0 : no update
+[0, 1, 0] : 0 : no update
+[0, 0, 1] : 1 : update
+[1, 0, 0] : 0 : update
+[1, 0, 0] : 0 : no update
+[0, 1, 0] : 0 : no update
+[0, 1, 1] : 1 : update
+[1, 0, 1] : 1 : no update
+[1, 0, 0] : 0 : no update
+[1, 1, 1] : 1 : no update
+[0, 1, 1] : 1 : no update
+[0, 1, 1] : 1 : no update
+[1, 0, 1] : 1 : no update
+[1, 1, 0] : 0 : no update
+[1, 0, 1] : 1 : no update
+[0, 0, 1] : 1 : no update
+[0, 0, 0] : 0 : update
+[0, 0, 0] : 0 : no update
+[1, 0, 0] : 0 : no update
+[1, 0, 0] : 0 : no update
+[0, 1, 0] : 0 : no update
+[1, 0, 1] : 1 : update
+[0, 1, 0] : 0 : update
+[0, 1, 0] : 0 : no update
+[0, 1, 0] : 0 : no update
+[0, 1, 1] : 1 : update
+[0, 1, 1] : 1 : no update
+[0, 1, 1] : 1 : no update
+[1, 1, 0] : 0 : update
+[1, 1, 0] : 0 : no update
+[1, 1, 0] : 0 : no update
+[1, 1, 1] : 1 : update
+[1, 0, 1] : 1 : no update
+[1, 1, 0] : 0 : update
+[1, 1, 0] : 0 : no update
+[1, 1, 1] : 1 : update
+[1, 0, 0] : 0 : update
+[1, 0, 0] : 0 : no update
+[1, 1, 1] : 1 : update
+[0, 1, 0] : 0 : update
+[0, 1, 0] : 0 : no update
+[0, 0, 1] : 1 : update
+[0, 0, 0] : 0 : update
+[0, 0, 0] : 0 : no update
+[1, 0, 0] : 0 : no update
+[0, 1, 0] : 0 : no update
+[0, 1, 1] : 1 : update
+[0, 0, 0] : 0 : update
+[0, 0, 0] : 0 : no update
+[1, 1, 0] : 0 : no update
+[1, 0, 1] : 1 : update
+[0, 0, 1] : 1 : no update
+[1, 1, 1] : 1 : no update
+[1, 1, 0] : 0 : update
+[1, 1, 0] : 0 : no update
+[0, 0, 1] : 1 : update
+[0, 0, 1] : 1 : no update
+[1, 0, 1] : 1 : no update
+[0, 1, 0] : 0 : update
+[0, 1, 0] : 0 : no update
+[0, 0, 0] : 0 : no update
+[0, 1, 1] : 1 : update
+[0, 0, 0] : 0 : update
+[0, 0, 0] : 0 : no update
+[0, 0, 1] : 1 : update
+[0, 1, 0] : 0 : update
+[0, 1, 0] : 0 : no update
+[0, 1, 1] : 1 : update
+[0, 0, 1] : 1 : no update
+[1, 1, 1] : 1 : no update
+[1, 0, 1] : 1 : no update
+[1, 1, 0] : 0 : update
+[1, 1, 0] : 0 : no update
+[1, 0, 0] : 0 : no update
+[1, 1, 1] : 1 : update
+[1, 0, 0] : 0 : update
+[1, 0, 0] : 0 : no update
+[0, 1, 0] : 0 : no update
+[0, 1, 1] : 1 : update
+[1, 0, 0] : 0 : no update
+[0, 1, 1] : 1 : no update
+[0, 1, 1] : 1 : no update
+[0, 0, 0] : 0 : update
+[0, 0, 0] : 0 : no update
+[0, 1, 1] : 1 : update
+[0, 0, 1] : 1 : no update
+[0, 0, 0] : 0 : update
+[0, 0, 0] : 0 : no update
+[0, 1, 1] : 1 : update
+[0, 1, 0] : 0 : update
+[0, 1, 0] : 0 : no update
+[1, 1, 1] : 1 : update
+[0, 1, 1] : 1 : no update
+[1, 1, 1] : 1 : no update
+[0, 0, 0] : 0 : update
+[0, 0, 0] : 0 : no update
+[0, 0, 1] : 1 : update
+[1, 1, 1] : 1 : no update
+[0, 0, 0] : 0 : update
+[0, 0, 0] : 0 : no update
+[1, 0, 1] : 1 : update
+[0, 1, 1] : 1 : no update
+[1, 1, 1] : 1 : no update
+[0, 0, 1] : 1 : no update
+[1, 1, 1] : 1 : no update
+[0, 0, 1] : 1 : no update
+[0, 1, 1] : 1 : no update
+[1, 1, 0] : 0 : update
+[1, 1, 0] : 0 : no update
+[1, 0, 0] : 0 : no update
+[0, 0, 0] : 0 : no update
+[1, 0, 1] : 1 : update
+[1, 0, 1] : 1 : no update
+[1, 0, 0] : 0 : update
+[1, 0, 0] : 0 : no update
+[1, 0, 1] : 1 : update
+[0, 0, 1] : 1 : no update
+[0, 1, 1] : 1 : no update
+[0, 1, 0] : 0 : update
+[0, 1, 0] : 0 : no update
+[1, 1, 1] : 1 : update
+[0, 0, 1] : 1 : no update
+[1, 1, 0] : 1 : 0 : 1
+[0, 0, 0] : 0 : 0 : 0
+[1, 0, 1] : 1 : 1 : 0
+[0, 0, 1] : 1 : 1 : 0
+[1, 1, 0] : 1 : 0 : 1
+[0, 0, 1] : 1 : 1 : 0
+[0, 0, 1] : 1 : 1 : 0
+[0, 1, 1] : 1 : 1 : 0
+[0, 0, 0] : 0 : 0 : 0
+[0, 1, 0] : 1 : 0 : 1
+[0, 1, 0] : 1 : 0 : 1
+[1, 0, 0] : 1 : 0 : 1
+[0, 1, 1] : 1 : 1 : 0
+[1, 0, 0] : 1 : 0 : 1
+[1, 1, 1] : 1 : 1 : 0
+[1, 1, 1] : 1 : 1 : 0
+[1, 1, 1] : 1 : 1 : 0
+[0, 0, 0] : 0 : 0 : 0
+[1, 0, 0] : 1 : 0 : 1
+[0, 0, 0] : 0 : 0 : 0
+[0, 0, 0] : 0 : 0 : 0
+[1, 1, 1] : 1 : 1 : 0
+[0, 1, 0] : 1 : 0 : 1
+[0, 1, 1] : 1 : 1 : 0
+[0, 0, 0] : 0 : 0 : 0
+[0, 1, 1] : 1 : 1 : 0
+[1, 1, 1] : 1 : 1 : 0
+[0, 1, 1] : 1 : 1 : 0
+[0, 0, 0] : 0 : 0 : 0
+[0, 1, 1] : 1 : 1 : 0
+[1, 1, 1] : 1 : 1 : 0
+[0, 0, 0] : 0 : 0 : 0
+[0, 0, 1] : 1 : 1 : 0
+[1, 0, 1] : 1 : 1 : 0
+[0, 0, 1] : 1 : 1 : 0
+[1, 0, 1] : 1 : 1 : 0
+[1, 0, 0] : 1 : 0 : 1
+[1, 0, 1] : 1 : 1 : 0
+[0, 1, 1] : 1 : 1 : 0
+[0, 1, 0] : 1 : 0 : 1
+[0, 1, 1] : 1 : 1 : 0
+[1, 1, 0] : 1 : 0 : 1
+[0, 1, 0] : 1 : 0 : 1
+[0, 1, 0] : 1 : 0 : 1
+[1, 0, 0] : 1 : 0 : 1
+[1, 1, 1] : 1 : 1 : 0
+[1, 0, 0] : 1 : 0 : 1
+[1, 1, 1] : 1 : 1 : 0
+[0, 1, 1] : 1 : 1 : 0
+[1, 0, 1] : 1 : 1 : 0
+[1, 0, 0] : 1 : 0 : 1
+[1, 1, 1] : 1 : 1 : 0
+[1, 1, 0] : 1 : 0 : 1
+[1, 0, 1] : 1 : 1 : 0
+[0, 0, 1] : 1 : 1 : 0
+[0, 0, 1] : 1 : 1 : 0
+[1, 0, 1] : 1 : 1 : 0
+[0, 0, 1] : 1 : 1 : 0
+[1, 0, 1] : 1 : 1 : 0
+[0, 1, 1] : 1 : 1 : 0
+[0, 0, 1] : 1 : 1 : 0
+[0, 0, 1] : 1 : 1 : 0
+[0, 1, 1] : 1 : 1 : 0
+[1, 0, 1] : 1 : 1 : 0
+[1, 1, 1] : 1 : 1 : 0
+[1, 1, 1] : 1 : 1 : 0
+[0, 1, 1] : 1 : 1 : 0
+[0, 1, 0] : 1 : 0 : 1
+[0, 1, 1] : 1 : 1 : 0
+[1, 1, 0] : 1 : 0 : 1
+[0, 1, 1] : 1 : 1 : 0
+[0, 1, 1] : 1 : 1 : 0
+[0, 1, 1] : 1 : 1 : 0
+[1, 0, 1] : 1 : 1 : 0
+[0, 0, 0] : 0 : 0 : 0
+[1, 1, 1] : 1 : 1 : 0
+[1, 0, 0] : 1 : 0 : 1
+[0, 1, 0] : 1 : 0 : 1
+[0, 1, 1] : 1 : 1 : 0
+[0, 1, 1] : 1 : 1 : 0
+[1, 1, 1] : 1 : 1 : 0
+[0, 1, 0] : 1 : 0 : 1
+[0, 1, 1] : 1 : 1 : 0
+[0, 0, 1] : 1 : 1 : 0
+[1, 0, 0] : 1 : 0 : 1
+[0, 0, 0] : 0 : 0 : 0
+[0, 1, 0] : 1 : 0 : 1
+[0, 1, 0] : 1 : 0 : 1
+[1, 0, 0] : 1 : 0 : 1
+[1, 1, 1] : 1 : 1 : 0
+[1, 1, 1] : 1 : 1 : 0
+[1, 1, 1] : 1 : 1 : 0
+[1, 0, 0] : 1 : 0 : 1
+[0, 1, 0] : 1 : 0 : 1
+[1, 1, 1] : 1 : 1 : 0
+[1, 1, 0] : 1 : 0 : 1
+[0, 1, 1] : 1 : 1 : 0
+[1, 1, 1] : 1 : 1 : 0
+[0, 0, 0] : 0 : 0 : 0
+[1, 1, 0] : 1 : 0 : 1
+[0, 0, 1] : 1 : 1 : 0
+[1, 0, 0] : 1 : 0 : 1
+[1, 1, 1] : 1 : 1 : 0
+[1, 0, 0] : 1 : 0 : 1
+[1, 1, 1] : 1 : 1 : 0
+[1, 1, 1] : 1 : 1 : 0
+[1, 1, 0] : 1 : 0 : 1
+[1, 1, 0] : 1 : 0 : 1
+[1, 1, 1] : 1 : 1 : 0
+[0, 1, 0] : 1 : 0 : 1
+[1, 1, 0] : 1 : 0 : 1
+[1, 0, 0] : 1 : 0 : 1
+[1, 0, 1] : 1 : 1 : 0
+[0, 1, 0] : 1 : 0 : 1
+[0, 0, 0] : 0 : 0 : 0
+[1, 0, 1] : 1 : 1 : 0
+[1, 1, 1] : 1 : 1 : 0
+[1, 1, 1] : 1 : 1 : 0
+[0, 0, 0] : 0 : 0 : 0
+[0, 0, 1] : 1 : 1 : 0
+[0, 0, 0] : 0 : 0 : 0
+[1, 0, 0] : 1 : 0 : 1
+[1, 1, 0] : 1 : 0 : 1
+[0, 0, 1] : 1 : 1 : 0
+[0, 0, 0] : 0 : 0 : 0
+[1, 0, 0] : 1 : 0 : 1
+[0, 0, 1] : 1 : 1 : 0
+[0, 0, 0] : 0 : 0 : 0
+[1, 1, 1] : 1 : 1 : 0
+[0, 0, 0] : 0 : 0 : 0
+[1, 0, 0] : 1 : 0 : 1
+[1, 0, 0] : 1 : 0 : 1
+[1, 1, 1] : 1 : 1 : 0
+[0, 0, 1] : 1 : 1 : 0
+[0, 1, 0] : 1 : 0 : 1
+[0, 0, 1] : 1 : 1 : 0
+[1, 1, 1] : 1 : 1 : 0
+[1, 0, 0] : 1 : 0 : 1
+[1, 0, 0] : 1 : 0 : 1
+[1, 0, 1] : 1 : 1 : 0
+[1, 0, 0] : 1 : 0 : 1
+[0, 0, 0] : 0 : 0 : 0
+[1, 0, 1] : 1 : 1 : 0
+[0, 0, 0] : 0 : 0 : 0
+[0, 0, 0] : 0 : 0 : 0
+[1, 1, 0] : 1 : 0 : 1
+[0, 1, 1] : 1 : 1 : 0
+[0, 1, 1] : 1 : 1 : 0
+[0, 0, 0] : 0 : 0 : 0
+[0, 1, 1] : 1 : 1 : 0
+[1, 0, 1] : 1 : 1 : 0
+[1, 1, 1] : 1 : 1 : 0
+[1, 0, 1] : 1 : 1 : 0
+[1, 0, 1] : 1 : 1 : 0
+[0, 1, 0] : 1 : 0 : 1
+[1, 0, 1] : 1 : 1 : 0
+[0, 0, 1] : 1 : 1 : 0
+[1, 0, 1] : 1 : 1 : 0
+[0, 1, 1] : 1 : 1 : 0
+[1, 1, 0] : 1 : 0 : 1
+[0, 1, 0] : 1 : 0 : 1
+[0, 1, 1] : 1 : 1 : 0
+[0, 1, 0] : 1 : 0 : 1
+[0, 0, 0] : 0 : 0 : 0
+[0, 1, 0] : 1 : 0 : 1
+[0, 0, 0] : 0 : 0 : 0
+[0, 1, 0] : 1 : 0 : 1
+[0, 1, 1] : 1 : 1 : 0
+[1, 1, 1] : 1 : 1 : 0
+[1, 0, 0] : 1 : 0 : 1
+[1, 0, 0] : 1 : 0 : 1
+[0, 1, 1] : 1 : 1 : 0
+[0, 1, 0] : 1 : 0 : 1
+[0, 0, 1] : 1 : 1 : 0
+[0, 1, 0] : 1 : 0 : 1
+[1, 1, 1] : 1 : 1 : 0
+[0, 0, 1] : 1 : 1 : 0
+[1, 0, 0] : 1 : 0 : 1
+[1, 1, 1] : 1 : 1 : 0
+[1, 0, 0] : 1 : 0 : 1
+[1, 0, 1] : 1 : 1 : 0
+[0, 1, 0] : 1 : 0 : 1
+[0, 1, 0] : 1 : 0 : 1
+[0, 0, 0] : 0 : 0 : 0
+[1, 1, 1] : 1 : 1 : 0
+[1, 1, 0] : 1 : 0 : 1
+[1, 0, 0] : 1 : 0 : 1
+[1, 0, 0] : 1 : 0 : 1
+[1, 0, 0] : 1 : 0 : 1
+[1, 0, 1] : 1 : 1 : 0
+[0, 0, 1] : 1 : 1 : 0
+[1, 1, 1] : 1 : 1 : 0
+[0, 1, 1] : 1 : 1 : 0
+[0, 0, 1] : 1 : 1 : 0
+[0, 1, 0] : 1 : 0 : 1
+[0, 0, 0] : 0 : 0 : 0
+[0, 1, 0] : 1 : 0 : 1
+[0, 0, 0] : 0 : 0 : 0
+[1, 1, 0] : 1 : 0 : 1
+[0, 1, 0] : 1 : 0 : 1
+[0, 0, 1] : 1 : 1 : 0
+[0, 1, 1] : 1 : 1 : 0
+[0, 1, 0] : 1 : 0 : 1
+[1, 1, 1] : 1 : 1 : 0
+[1, 1, 0] : 1 : 0 : 1
+[0, 1, 1] : 1 : 1 : 0
+[1, 1, 1] : 1 : 1 : 0
+[1, 1, 1] : 1 : 1 : 0
+[0, 1, 1] : 1 : 1 : 0
+[1, 1, 1] : 1 : 1 : 0
+[1, 1, 0] : 1 : 0 : 1
+[0, 0, 1] : 1 : 1 : 0
+[0, 1, 0] : 1 : 0 : 1
+[0, 1, 0] : 1 : 0 : 1
+[0, 1, 1] : 1 : 1 : 0
+[0, 0, 1] : 1 : 1 : 0
+[0, 1, 1] : 1 : 1 : 0
+[0, 1, 1] : 1 : 1 : 0
+[0, 0, 1] : 1 : 1 : 0
+[0, 1, 1] : 1 : 1 : 0
+[0, 0, 0] : 0 : 0 : 0
+[1, 1, 1] : 1 : 1 : 0
+[0, 0, 1] : 1 : 1 : 0
+[0, 1, 1] : 1 : 1 : 0
+[0, 0, 0] : 0 : 0 : 0
+[0, 0, 1] : 1 : 1 : 0
+[0, 0, 0] : 0 : 0 : 0
+[1, 1, 0] : 1 : 0 : 1
+[1, 0, 0] : 1 : 0 : 1
+[1, 0, 1] : 1 : 1 : 0
+[1, 1, 0] : 1 : 0 : 1
+[1, 0, 0] : 1 : 0 : 1
+[0, 0, 0] : 0 : 0 : 0
+[1, 0, 1] : 1 : 1 : 0
+[0, 1, 0] : 1 : 0 : 1
+[1, 0, 0] : 1 : 0 : 1
+[0, 1, 1] : 1 : 1 : 0
+[1, 1, 0] : 1 : 0 : 1
+[0, 1, 0] : 1 : 0 : 1
+[0, 0, 1] : 1 : 1 : 0
+[0, 1, 0] : 1 : 0 : 1
+[1, 0, 1] : 1 : 1 : 0
+[1, 0, 0] : 1 : 0 : 1
+[0, 1, 1] : 1 : 1 : 0
+[1, 0, 1] : 1 : 1 : 0
+[0, 1, 0] : 1 : 0 : 1
+[0, 1, 0] : 1 : 0 : 1
+[1, 0, 0] : 1 : 0 : 1
+[1, 0, 1] : 1 : 1 : 0
+[1, 1, 0] : 1 : 0 : 1
+Total error : 89
+average error : 0.356
+epsilon :  0.2
+Training fail
