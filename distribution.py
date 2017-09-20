@@ -17,3 +17,9 @@ def boolean_distribution_sample(size):
     '''Generates a boolean distributed vector of size : "size" '''
 
     return [random.randint(0, 1) for i in range(size)]
+
+
+ALLOWED_DISTRIBUTIONS = {
+    "bool": boolean_distribution_sample,
+    "sphere": unit_sphere_distribution_sample
+}
