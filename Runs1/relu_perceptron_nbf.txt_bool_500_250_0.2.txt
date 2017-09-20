@@ -784,7 +784,7 @@
 [1, 1, 0, 0, 1] : 0 : 0 : 0
 [1, 0, 0, 0, 1] : 0 : 0 : 0
 [0, 0, 0, 0, 0] : 0 : 0 : 0
-Total error : 28
-average error : 0.112
-epsilon :  0.2
-Training success
+Total Error : 28
+Average Error : 0.112
+Epsilon :  0.2
+TRAINING SUCCEEDED

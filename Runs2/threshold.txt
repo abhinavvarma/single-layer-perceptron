@@ -749,7 +749,7 @@
 [0.4302320247049549, 0.5322869030254578, 0.7290891974140353] : 1 : 1 : 0
 [0.25487828409188407, 0.699767999369801, 0.6673543341856429] : 1 : 1 : 0
 ['perceptron.py', 'threshold', 'winnow', 'tf.txt', 'sphere', '500', '250', '0.2']
-Total error : 80
-average error : 0.32
-epsilon :  0.2
-Training fail
+Total Error : 80
+Average Error : 0.32
+Epsilon :  0.2
+TRAINING FAILED

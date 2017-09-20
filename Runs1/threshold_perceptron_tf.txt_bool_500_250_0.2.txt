@@ -867,7 +867,7 @@
 [1, 0, 0] : 1 : 0 : 1
 [1, 0, 1] : 1 : 1 : 0
 [1, 1, 0] : 1 : 0 : 1
-Total error : 89
-average error : 0.356
-epsilon :  0.2
-Training fail
+Total Error : 89
+Average Error : 0.356
+Epsilon :  0.2
+TRAINING FAILED

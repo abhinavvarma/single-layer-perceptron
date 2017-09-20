@@ -1044,7 +1044,7 @@
 [0, 1, 0, 0, 0] : 0 : 0 : 0
 [1, 1, 0, 1, 1] : 0 : 0 : 0
 [1, 0, 0, 0, 1] : 0 : 0 : 0
-Total error : 42
-average error : 0.168
-epsilon :  0.2
-Training success
+Total Error : 42
+Average Error : 0.168
+Epsilon :  0.2
+TRAINING SUCCEEDED

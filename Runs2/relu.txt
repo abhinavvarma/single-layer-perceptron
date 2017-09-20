@@ -749,7 +749,7 @@
 [0.4338698462932482, 0.7547880763058518, 0.4919877197085154] : 1 : 1 : 0
 [0.7446442199415823, 0.18480963699090047, 0.6413660294893114] : 1 : 1 : 0
 ['perceptron.py', 'relu', 'winnow', 'tf.txt', 'sphere', '500', '250', '0.2']
-Total error : 88
-average error : 0.352
-epsilon :  0.2
-Training fail
+Total Error : 88
+Average Error : 0.352
+Epsilon :  0.2
+TRAINING FAILED
