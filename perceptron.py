@@ -6,11 +6,6 @@ from updaterules import AVAILABLE_UPDATE_RULES
 
 
 def perceptron(x, w, activation, theta):
-    '''Takes an input, weights
-    applies an activation on the linear product of inputs and weights
-    and returns 1 if the output of activation is greater than theta
-    if not it returns 0 '''
-
     linear_sum = sum(i*j for i, j in zip(x, w))
 
     if activation(linear_sum, theta) >= theta:
@@ -20,9 +15,6 @@ def perceptron(x, w, activation, theta):
 
 
 def train(X_train, y_train):
-    ''' Training the perceptron to find the most ideal weights or parameters
-    Returns the best W and theta'''
-
     w = [1] * len(X_train[0])
     error = 0
     theta = 0
@@ -38,9 +30,6 @@ def train(X_train, y_train):
 
 
 def test(X_test, y_test, w, theta):
-    '''Uses the precomputed w and theta and
-     tests the performance on the test data'''
-
     total_error = 0
     for x, y_true in zip(X_test, y_test):
         y_predicted = perceptron(x, w, activation_func, theta)
