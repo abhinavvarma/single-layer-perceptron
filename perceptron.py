@@ -50,8 +50,6 @@ def test(X_test, y_test, w, theta):
         print x, ":", y_predicted, ":", y_true, ":", err
 
     avg_error = float(total_error) / num_test
-
-    print sys.argv
     print "Total error :", total_error
     print "average error", ":", round(avg_error, 4)
     print "epsilon : ", epsilon
@@ -68,6 +66,9 @@ if __name__ == "__main__":
     num_train = int(sys.argv[5])
     num_test = int(sys.argv[6])
     epsilon = float(sys.argv[7])
+    opfilename = "-".join([val for val in sys.argv[1:]])
+    # sys.stdout = open(opfilename+'.txt', 'w')
+
     update_rule = AVAILABLE_UPDATE_RULES[update_name]
     activation_func = activation.ALLOWED_TYPES[activation_name]
     distribution_sampler_function = distribution.ALLOWED_DISTRIBUTIONS[distribution_type]
