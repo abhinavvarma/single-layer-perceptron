@@ -1,33 +1,8 @@
-import math
-import random
-import re
-from operator import mul
 import sys
-
-
-def threshold(k):
-    ''' Threshold activation function'''
-    return (0 if k < theta else 1)
-
-
-def sigmoid(k):
-    '''Sigmoid activation function '''
-    return 1/(1+math.exp(-k))
-
-
-def tanh(k):
-    ''' Tanh activation function '''
-    return math.tanh(k)
-
-
-def relu(k):
-    ''' ReLu activation function '''
-    return max(0, k)
-
-activation = {"threshold": threshold,
-              "tanh": tanh,
-              "sigmoid": sigmoid,
-              "relu": relu}
+import activation
+import distribution
+import inputfileparser
+from updaterules import AVAILABLE_UPDATE_RULES
 
 
 def perceptron(x, w, activation, theta):
@@ -38,109 +13,10 @@ def perceptron(x, w, activation, theta):
 
     linear_sum = sum(i*j for i, j in zip(x, w))
 
-    if activation(linear_sum) >= theta:
+    if activation(linear_sum, theta) >= theta:
         return 1
     else:
         return 0
-
-
-def perceptron_update_rule(y_true, y_predicted, x, w, theta):
-    '''Takes in true and predicted target and
-    returns updated weights and threshold '''
-
-    if y_predicted > y_true:
-
-        temp_w = [j - i for i, j in zip(x, w)]
-        temp_theta = theta + 1
-        w = temp_w
-        theta = temp_theta
-        print x, ":", y_true, ":", "update"
-
-    if y_predicted < y_true:
-
-        temp_w = [i+j for i, j in zip(x, w)]
-        temp_theta = theta - 1
-        w = temp_w
-        theta = temp_theta
-        print x, ":", y_true, ":", "update"
-
-    else:
-        print x, ":", y_true, ":", "no update"
-
-    return w, theta
-
-
-def winnow_update_rule(y_true, y_predicted, x, w, alpha=1.1, theta=0.5):
-    '''Takes in true and predicted target and
-     returns updated weights and threshold '''
-
-    if y_predicted > y_true:
-
-        temp_w = [(alpha ** -i) * j for i, j in zip(x, w)]
-        w = temp_w
-        print x, ":", y_true, ":", "update"
-
-    elif y_predicted < y_true:
-
-        temp_w = [(alpha ** i) * j for i, j in zip(x, w)]
-        w = temp_w
-        print x, ":", y_true, ":", "update"
-
-    else:
-        print x, ":", y_true, ":", "no update"
-
-    return w, theta
-
-
-def compute_ground_tf(X, coeffs, th):
-    ''' This computes the ground truth or the y_true,
-     using the TF function, for a given input'''
-
-    return [int(sum(map(mul, x, coeffs)) >= th) for x in X]
-
-
-def funapply(num1, num2, fun):
-    '''applies fun (operation : AND / OR) between num1 and num2 '''
-
-    if fun == 'OR':
-        return num1 or num2
-    elif fun == 'AND':
-        return num1 and num2
-
-
-def compute_ground_nbf(X, sign_indexes, funs):
-    ''' This computes the ground truth or the y_true,
-     using the NBF function, for a given input'''
-
-    y = []
-    for x in X:
-        nums = list(map(
-                   lambda i: (1 if i > 0 else -1) * x[abs(i) - 1],
-                    sign_indexes))
-        num1 = nums[0]
-        for i in range(len(funs)):
-            num2 = nums[i + 1]
-            num1 = funapply(num1, num2, funs[i])
-        y.append(num1)
-    return y
-
-
-def unit_sphere_distribution_sample(size):
-    ''' Generates a unit sphere distributed vector of size : "size" '''
-
-    sphere_distribution = [random.random() for i in range(size)]
-
-    mag = math.sqrt(sum(i ** 2 for i in sphere_distribution))
-
-    sphere = [i / mag for i in sphere_distribution]
-
-    return sphere
-
-
-def boolean_distribution_sample(size):
-    '''Generates a boolean distributed vector of size : "size" '''
-
-    return [random.randint(0, 1) for i in range(size)]
 
 
 def train(X_train, y_train):
@@ -174,6 +50,8 @@ def test(X_test, y_test, w, theta):
         print x, ":", y_predicted, ":", y_true, ":", err
 
     avg_error = float(total_error) / num_test
+
+    print sys.argv
     print "Total error :", total_error
     print "average error", ":", round(avg_error, 4)
     print "epsilon : ", epsilon
@@ -183,65 +61,17 @@ def test(X_test, y_test, w, theta):
         print "Training fail"
 
 if __name__ == "__main__":
-
     activation_name = sys.argv[1]
     update_name = sys.argv[2]
     ground_file = sys.argv[3]
-    distribution = sys.argv[4]
+    distribution_type = sys.argv[4]
     num_train = int(sys.argv[5])
     num_test = int(sys.argv[6])
     epsilon = float(sys.argv[7])
-    theta = 0
-    update_algos = {"winnow": winnow_update_rule,
-                    "perceptron": perceptron_update_rule}
-    update_rule = update_algos[update_name]
-    activation_func = activation[activation_name]
+    update_rule = AVAILABLE_UPDATE_RULES[update_name]
+    activation_func = activation.ALLOWED_TYPES[activation_name]
+    distribution_sampler_function = distribution.ALLOWED_DISTRIBUTIONS[distribution_type]
 
-    with open(ground_file) as f:
-        lines = f.read().split("\n")
-        name = lines[0]
-
-        if name == "NBF":
-
-            sign_indexes = list(map(int, re.findall("[+|-]?\d+", lines[1])))
-            funs = re.findall("\w\w+", lines[1])
-
-            n = max(map(abs, sign_indexes))
-
-            X_train = [boolean_distribution_sample(n)
-                       for i in range(num_train)]
-            y_train = compute_ground_nbf(X_train, sign_indexes, funs)
-
-            X_test = [boolean_distribution_sample(n) for i in range(num_test)]
-            y_test = compute_ground_nbf(X_test, sign_indexes, funs)
-
-        elif name == "TF":
-            threshold = int(lines[1])
-            coeffs = map(int, lines[2].split(" "))
-
-            n = len(coeffs)
-
-            if distribution == 'bool':
-                X_train = [boolean_distribution_sample(n)
-                           for i in range(num_train)]
-                y_train = compute_ground_tf(X_train, coeffs, threshold)
-
-                X_test = [boolean_distribution_sample(n)
-                          for i in range(num_test)]
-                y_test = compute_ground_tf(X_test, coeffs, threshold)
-
-            elif distribution == 'sphere':
-                X_train = [unit_sphere_distribution_sample(n)
-                           for i in range(num_train)]
-                y_train = compute_ground_tf(X_train, coeffs, threshold)
-
-                X_test = [unit_sphere_distribution_sample(n)
-                          for i in range(num_test)]
-                y_test = compute_ground_tf(X_test, coeffs, threshold)
-
-        else:
-            print "NOT PARSABLE"
-
-        w, theta = train(X_train, y_train)
-
-        test(X_test, y_test, w, theta)
+    X_train, y_train, X_test, y_test = inputfileparser.parse(ground_file, distribution_sampler_function, num_train, num_test)
+    w, theta = train(X_train, y_train)
+    test(X_test, y_test, w, theta)
