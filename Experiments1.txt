@@ -70,3 +70,8 @@ Learn linear threshold function with perceptron update rule:
                 average error : 0.064
                 epsilon :  0.2
                 Training success
+
+
+Comments:
+The Perceptron rule was not able to PAC-Learn linear threshold functions under uniform boolean distribution.
+They thus match with the PAC learning results learnt from class
