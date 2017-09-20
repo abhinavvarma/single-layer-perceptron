@@ -50,6 +50,8 @@ def test(X_test, y_test, w, theta):
         print x, ":", y_predicted, ":", y_true, ":", err
 
     avg_error = float(total_error) / num_test
+
+    print sys.argv
     print "Total error :", total_error
     print "average error", ":", round(avg_error, 4)
     print "epsilon : ", epsilon
@@ -72,5 +74,4 @@ if __name__ == "__main__":
 
     X_train, y_train, X_test, y_test = inputfileparser.parse(ground_file, distribution_sampler_function, num_train, num_test)
     w, theta = train(X_train, y_train)
-
     test(X_test, y_test, w, theta)
