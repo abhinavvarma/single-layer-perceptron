@@ -13,7 +13,7 @@ def perceptron(x, w, activation, theta):
 
     linear_sum = sum(i*j for i, j in zip(x, w))
 
-    if activation(linear_sum) >= theta:
+    if activation(linear_sum, theta) >= theta:
         return 1
     else:
         return 0
