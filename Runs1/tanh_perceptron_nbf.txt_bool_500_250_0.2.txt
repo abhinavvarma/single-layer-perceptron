@@ -763,7 +763,7 @@
 [0, 1, 0, 1, 0] : 0 : 0 : 0
 [1, 0, 1, 1, 0] : 0 : 0 : 0
 [0, 1, 0, 0, 1] : 0 : 0 : 0
-Total error : 0
-average error : 0.0
-epsilon :  0.2
-Training success
+Total Error : 0
+Average Error : 0.0
+Epsilon :  0.2
+TRAINING SUCCEEDED

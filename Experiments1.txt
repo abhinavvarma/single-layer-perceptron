@@ -4,49 +4,49 @@ Learn nested boolean function with perceptron update rule:
     1. On boolean distribution data
         a. relu as activation function
             Result:
-                Total error : 28
-                average error : 0.112
-                epsilon :  0.2
-                Training success
+                Total Error : 28
+                Average Error : 0.112
+                Epsilon :  0.2
+                TRAINING SUCCEEDED
         b. tanh as activation function
             Result:
-                Total error : 0
-                average error : 0.0
-                epsilon :  0.2
-                Training success
+                Total Error : 0
+                Average Error : 0.0
+                Epsilon :  0.2
+                TRAINING SUCCEEDED
         c. threshold as activation function
             Result:
-                Total error : 52
-                average error : 0.208
-                epsilon :  0.2
-                Training fail
+                Total Error : 52
+                Average Error : 0.208
+                Epsilon :  0.2
+                TRAINING FAILED
 
             Note: When you increase the num_train=750, the error rate dropped.
-                Total error : 42
-                average error : 0.168
-                epsilon :  0.2
-                Training success
+                Total Error : 42
+                Average Error : 0.168
+                Epsilon :  0.2
+                TRAINING SUCCEEDED
 
 Learn linear threshold function with perceptron update rule:
     1. On boolean distribution data
         a. relu as activation function
             Result:
-                Total error : 0
-                average error : 0.0
-                epsilon :  0.2
-                Training success
+                Total Error : 0
+                Average Error : 0.0
+                Epsilon :  0.2
+                TRAINING SUCCEEDED
         b. tanh as activation function
             Result:
-                Total error : 0
-                average error : 0.0
-                epsilon :  0.2
-                Training success
+                Total Error : 0
+                Average Error : 0.0
+                Epsilon :  0.2
+                TRAINING SUCCEEDED
         c. threshold as activation function
             Result:
-                Total error : 89
-                average error : 0.356
-                epsilon :  0.2
-                Training fail
+                Total Error : 89
+                Average Error : 0.356
+                Epsilon :  0.2
+                TRAINING FAILED
 
             Note : Conducted experiments with different input and output sizes. Still the average error
             rate is nearly the same.
@@ -54,22 +54,22 @@ Learn linear threshold function with perceptron update rule:
     2. On unit spherical distribution data
         a. relu as activation function
             Result:
-                Total error : 47
-                average error : 0.188
-                epsilon :  0.2
-                Training success
+                Total Error : 47
+                Average Error : 0.188
+                Epsilon :  0.2
+                TRAINING SUCCEEDED
         b. tanh as activation function
             Result:
-                Total error : 14
-                average error : 0.056
-                epsilon :  0.2
-                Training success
+                Total Error : 14
+                Average Error : 0.056
+                Epsilon :  0.2
+                TRAINING SUCCEEDED
         c. threshold as activation function
             Result:
-                Total error : 16
-                average error : 0.064
-                epsilon :  0.2
-                Training success
+                Total Error : 16
+                Average Error : 0.064
+                Epsilon :  0.2
+                TRAINING SUCCEEDED
 
 
 Comments:

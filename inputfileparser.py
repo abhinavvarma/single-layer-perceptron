@@ -4,66 +4,62 @@ from operator import mul
 import distribution
 
 
-def compute_ground_tf(X, coeffs, th):
-    ''' This computes the ground truth or the y_true,
-     using the TF function, for a given input'''
-
-    return [int(sum(map(mul, x, coeffs)) >= th) for x in X]
+def compute_true_value_for_threshold_fn(X, coefficients, threshold):
+    return [int(sum(map(mul, x, coefficients)) >= threshold) for x in X]
 
 
-def funapply(num1, num2, fun):
-    '''applies fun (operation : AND / OR) between num1 and num2 '''
-
-    if fun == 'OR':
+def boolean_operation(num1, num2, operator):
+    if operator == 'OR':
         return num1 or num2
-    elif fun == 'AND':
+    elif operator == 'AND':
         return num1 and num2
 
 
-def compute_ground_nbf(X, sign_indexes, funs):
-    ''' This computes the ground truth or the y_true,
-     using the NBF function, for a given input'''
-
+def compute_true_value_for_nbf(X, sign_indexes, operations):
     y = []
     for x in X:
         nums = list(map(
                    lambda i: (1 if i > 0 else -1) * x[abs(i) - 1],
                     sign_indexes))
         num1 = nums[0]
-        for i in range(len(funs)):
+        for i in range(len(operations)):
             num2 = nums[i + 1]
-            num1 = funapply(num1, num2, funs[i])
+            num1 = boolean_operation(num1, num2, operations[i])
         y.append(num1)
     return y
 
 
-def nbf(lines, num_train, num_test):
-    sign_indexes = list(map(int, re.findall("[+|-]?\d+", lines[1])))
-    funs = re.findall("\w\w+", lines[1])
+def find_max_vars(indices_with_sign):
+    return max(map(abs, indices_with_sign))
 
-    n = max(map(abs, sign_indexes))
+
+def nbf(lines, num_train, num_test):
+    indices_with_sign = list(map(int, re.findall("[+|-]?\d+", lines[1])))
+    boolean_operations = re.findall("\w\w+", lines[1])
+
+    n = find_max_vars(indices_with_sign)
 
     X_train = [distribution.ALLOWED_DISTRIBUTIONS['bool'](n)
                for i in range(num_train)]
-    y_train = compute_ground_nbf(X_train, sign_indexes, funs)
+    y_train = compute_true_value_for_nbf(X_train, indices_with_sign, boolean_operations)
 
     X_test = [distribution.ALLOWED_DISTRIBUTIONS['bool'](n) for i in range(num_test)]
-    y_test = compute_ground_nbf(X_test, sign_indexes, funs)
+    y_test = compute_true_value_for_nbf(X_test, indices_with_sign, boolean_operations)
     return X_train, y_train, X_test, y_test
 
 
 def tf(lines, distribution, num_train, num_test):
     threshold = int(lines[1])
-    coeffs = map(int, lines[2].split(" "))
+    coefficients = map(int, lines[2].split(" "))
 
-    n = len(coeffs)
+    n = len(coefficients)
     X_train = [distribution(n)
                for i in range(num_train)]
-    y_train = compute_ground_tf(X_train, coeffs, threshold)
+    y_train = compute_true_value_for_threshold_fn(X_train, coefficients, threshold)
 
     X_test = [distribution(n)
               for i in range(num_test)]
-    y_test = compute_ground_tf(X_test, coeffs, threshold)
+    y_test = compute_true_value_for_threshold_fn(X_test, coefficients, threshold)
     return X_train, y_train, X_test, y_test
 
 

@@ -749,7 +749,7 @@
 [0.3395631378977231, 0.8990268401267159, 0.2764916203302092] : 1 : 0 : 1
 [0.9228152594588064, 0.06307692513882295, 0.3800438111915615] : 1 : 1 : 0
 ['perceptron.py', 'tanh', 'winnow', 'tf.txt', 'sphere', '500', '250', '0.2']
-Total error : 91
-average error : 0.364
-epsilon :  0.2
-Training fail
+Total Error : 91
+Average Error : 0.364
+Epsilon :  0.2
+TRAINING FAILED
